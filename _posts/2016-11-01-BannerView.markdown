@@ -7,7 +7,8 @@ date: 2017-01-01 14:21:24.000000000 +09:00
 🔥 非常火，使用简单、功能丰富的 `Objective-C版` 轮播控件, 基于 `UICollectionView` 实现, 多种场景均支持使用，并且支持100%自定义。
 
 ##  预览效果
-<image src="https://ws3.sinaimg.cn/large/006tNc79ly1fi6k9kmghsg30dr0oju10.gif" width=250>
+![](https://ws3.sinaimg.cn/large/006tNc79ly1fi6k9kmghsg30dr0oju10.gif)
+<!--<image src="https://ws3.sinaimg.cn/large/006tNc79ly1fi6k9kmghsg30dr0oju10.gif" width=250>-->
 
 ## 特性
 
