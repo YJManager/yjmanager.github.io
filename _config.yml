@@ -1,16 +1,16 @@
 # Basic
-title: Vno Jekyll
-subtitle: A blog-orientation theme for Jekyll
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: Vno Jekyll is a port of my Ghost theme vno.
-creator: <a href="http://onev.cat">@onevcat</a>
+title: YJManager
+subtitle: The more you know, the more you dare.
+welcome_message: <a href="https://github.com/YJManager" target="_blank">我的Github地址</a>
+description: 欢迎来到这里, 我是YJManager, 一名来自中国首都 iOS / Android Developer。现居北京。
+creator: <a href="https://github.com/YJManager">@YJManager</a>
 
 url: "https://yjmanager.github.io/"
 
 permalink: /:year/:month/:title/
 
 # Format
-highlighter: rouge
+highlighter: cerulean
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
 cover_color: red
