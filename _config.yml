@@ -1,8 +1,8 @@
 # Basic
 title: YJManager
 subtitle: The more you know, the more you dare.
-welcome_message: <a href="https://github.com/YJManager" target="_blank">我的Github地址</a>
-description: 欢迎来到这里, 我是YJManager, 一名来自中国首都 iOS / Android Developer。现居北京。
+welcome_message: <a href="https://github.com/YJManager" target="_blank">Github地址:https://github.com/YJManager</a>
+description: 欢迎来到这里, 我是YJManager, 一名来自中国首都 iOS / Android Developer。就职于国内某大型电子商务公司。
 creator: <a href="https://github.com/YJManager">@YJManager</a>
 
 url: "https://yjmanager.github.io/"
@@ -10,20 +10,20 @@ url: "https://yjmanager.github.io/"
 permalink: /:year/:month/:title/
 
 # Format
-highlighter: cerulean
+highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: red
+cover_color: blue
 
 # The blog button should not be removed.
 blog_button:
-    title: Blog
-    description: Visit blog
+    title: 博客
+    description: 去访问
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
-    # - {title: Another Button, description: A button, url: 'http://example.com'}
+    - {title: 简历, description: 我的简历, url: 'https://github.com/YJManager'}
+    - {title: 关于, description: 了解更多, url: 'https://github.com/YJManager'}
 
 # Pagination
 gems: [jekyll-paginate]
@@ -37,11 +37,11 @@ comment:
 
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    weibo: YJManager
+    github: YJManager
+    twitter: YJManager
+    # gplus: 107108267983477358170
+    mail: houmanager@hotmail.com
 
 # Google Analytics
 ga:
