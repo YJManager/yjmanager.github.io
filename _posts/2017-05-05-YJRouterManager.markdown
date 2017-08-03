@@ -1,15 +1,11 @@
 ---
 layout: post
-title: YJRouterManagerDemo 的使用方法
+title: YJRouterManager 的使用方法
 date: 2017-05-05 14:21:24.000000000 +09:00
 ---
 
-[![Travis](https://img.shields.io/travis/YJManager/YJRouterManagerOC.svg)](https://github.com/YJManager/YJRouterManagerOC.git)
-[![Language](https://img.shields.io/badge/Language-Objective--C-FF7F24.svg?style=flat)](https://github.com/YJManager/YJBannerViewOC.git)
-[![GitHub tag](https://img.shields.io/github/tag/eYJManager/YJRouterManagerOC.svg)](https://github.com/YJManager/YJRouterManagerOC.git)
-
 ### 效果
-![](https://github.com/YJManager/YJRouterManagerOC/blob/master/YJRouterManagerDemo/Resource/bgAnimation.gif)
+![](https://ws3.sinaimg.cn/large/006tNc79ly1fi6oaqx4ucg30a80izgul.gif)
 
 ## 安装
 
@@ -38,7 +34,7 @@ return YES;
 
 #### 在 YJRouterManagerConfig.plist 配置映射关系 或者 在控制器中手动注册
 ##### Plist 方式
-![](https://github.com/YJManager/YJRouterManagerOC/blob/master/YJRouterManagerDemo/Resource/routerPlist.png)
+![](https://ws2.sinaimg.cn/large/006tNc79ly1fi6ocx1oqqj30k908ndh8.jpg)
 
 ##### 控制器注册方式
 
@@ -78,6 +74,4 @@ present 方式打开
 + (void)presentViewControllerUrl:(NSString *)url parameter:(NSDictionary *)parameter showType:(YJRouterShowType)showType sourceViewController:(UIViewController *)sourceViewController packingNavigationBlock:(YJPackingNavigationBlock)packingNavigationBlock complete:(YJViewControllerCreatedBlock)complete
 ```
 
-## License
 
-This code is distributed under the terms and conditions of the [MIT license](LICENSE).
