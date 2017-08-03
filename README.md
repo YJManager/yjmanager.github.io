@@ -1,2 +1,0 @@
-# yjmanager.github.io
-blog
