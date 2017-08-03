@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>YJBannerView 的使用方法</title>
+  <meta name="description" content="🔥 非常火，使用简单、功能丰富的 Objective-C版 轮播控件, 基于 UICollectionView 实现, 多种场景均支持使用，并且支持100%自定义。">
+  <meta name="author" content="Wei Wang">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="YJBannerView 的使用方法">
+  <meta name="twitter:description" content="🔥 非常火，使用简单、功能丰富的 Objective-C版 轮播控件, 基于 UICollectionView 实现, 多种场景均支持使用，并且支持100%自定义。">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="YJBannerView 的使用方法">
+  <meta property="og:description" content="🔥 非常火，使用简单、功能丰富的 Objective-C版 轮播控件, 基于 UICollectionView 实现, 多种场景均支持使用，并且支持100%自定义。">
+  
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+  <link href="/assets/images/favicon.png" rel="shortcut icon" type="image/png">
+  
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="canonical" href="http://localhost:4000/2017/01/BannerView/">
+  <link rel="alternate" type="application/rss+xml" title="YJManager" href="http://localhost:4000/feed.xml">
+  
+  <meta name="google-site-verification" content="1-1ZlHoRvM0T2FqPbW2S-qLgYXN6rsn52kErlMPd_gw" />
+  
+</head>
+
+
+  <body>
+
+    <span class="mobile btn-mobile-menu">
+        <i class="fa fa-list btn-mobile-menu__icon"></i>
+        <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
+    </span>
+    
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url('/assets/images/background-cover.jpg')">
+  <div class="panel-main">
+
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+
+        <a href="/#blog" title="前往 YJManager 的主页" class="blog-button"><img src="/assets/images/avatar.jpg" width="80" alt="YJManager logo" class="panel-cover__logo logo" /></a>
+        <h1 class="panel-cover__title panel-title"><a href="/#blog" title="link to homepage for YJManager" class="blog-button">YJManager</a></h1>
+        
+        <span class="panel-cover__subtitle panel-subtitle">The more you know, the more you dare.</span>
+        
+        <hr class="panel-cover__divider" />
+        <p class="panel-cover__description">欢迎来到这里, 我是YJManager, 一名来自中国首都 iOS / Android Developer。就职于国内某大型电子商务公司。</p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+        
+        
+        <p class="panel-cover__description"><a href="https://github.com/YJManager" target="_blank">Github地址:https://github.com/YJManager</a></p>
+        
+        
+        <div class="navigation-wrapper">
+          <div>
+            <nav class="cover-navigation cover-navigation--primary">
+              <ul class="navigation">
+                <li class="navigation__item"><a href="/#blog" title="去访问" class="blog-button">博客</a></li>
+                
+                  <li class="navigation__item"><a href="https://github.com/YJManager" target="_blank" title="我的简历">简历</a></li>
+                
+                  <li class="navigation__item"><a href="https://github.com/YJManager" target="_blank" title="了解更多">关于</a></li>
+                
+              </ul>
+            </nav>
+          </div>
+          
+          <div><nav class="cover-navigation navigation--social">
+  <ul class="navigation">
+
+  
+  <!-- Weibo -->
+  <li class="navigation__item">
+    <a href="http://weibo.com/YJManager" title="@YJManager 的微博" target="_blank">
+      <i class='social fa fa-weibo'></i>
+      <span class="label">Weibo</span>
+    </a>
+  </li>
+  
+
+  
+  <!-- Github -->
+  <li class="navigation__item">
+    <a href="https://github.com/YJManager" title="@YJManager 的 Github" target="_blank">
+      <i class='social fa fa-github'></i>
+      <span class="label">Github</span>
+    </a>
+  </li>
+  
+  
+  
+  <!-- Twitter -->
+  <li class="navigation__item">
+    <a href="http://twitter.com/YJManager" title="@YJManager" target="_blank">
+      <i class='social fa fa-twitter'></i>
+      <span class="label">Twitter</span>
+    </a>
+  </li>
+  
+
+  
+  <!-- Google Plus -->
+  <li class="navigation__item">
+    <a href="https://plus.google.com/107108267983477358170" rel="author" title="Google+" target="_blank">
+      <i class='social fa fa-google-plus-square'></i>
+      <span class="label">Google Plus</span>
+    </a>
+  </li>
+  
+
+  <!-- RSS -->
+  <li class="navigation__item">
+    <a href="/feed.xml" rel="author" title="RSS" target="_blank">
+      <i class='social fa fa-rss'></i>
+      <span class="label">RSS</span>
+    </a>
+  </li>
+
+  
+  <!-- Email -->
+  <li class="navigation__item">
+    <a href="mailto:houmanager@hotmail.com" title="Contact me">
+      <i class='social fa fa-envelope'></i>
+      <span class="label">Email</span>
+    </a>
+  </li>
+  
+
+  </ul>
+</nav>
+</div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="panel-cover--overlay cover-blue"></div>
+    
+  </div>
+</header>
+
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            <article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="2017-01-01 13:21:24 +0800" itemprop="datePublished" class="post-meta__date date">2017-01-01</time> &#8226; <span class="post-meta__tags tags"></span>
+    </div>
+    <h1 class="post-title">YJBannerView 的使用方法</h1>
+  </header>
+
+  <section class="post">
+    <p>🔥 非常火，使用简单、功能丰富的 <code class="highlighter-rouge">Objective-C版</code> 轮播控件, 基于 <code class="highlighter-rouge">UICollectionView</code> 实现, 多种场景均支持使用，并且支持100%自定义。</p>
+
+<h2 id="预览效果">预览效果</h2>
+<p>&lt;image src=”https://ws3.sinaimg.cn/large/006tNc79ly1fi6k9kmghsg30dr0oju10.gif” width=250&gt;</p>
+
+<h2 id="特性">特性</h2>
+
+<ul>
+  <li>[x] 支持循环无限轮播(自动/手动)、非循环轮播</li>
+  <li>[x] 支持自定义轮播内容</li>
+  <li>[x] 支持自定义PageControl样式</li>
+  <li>[x] 支持多个方向滚动</li>
+  <li>[x] 支持自动滚动时间设置</li>
+  <li>[x] 支持滚动相关手势的控制</li>
+  <li>[x] 支持ContentMode的设置</li>
+  <li>[x] 支持Banner标题的设置自定义</li>
+  <li>[x] 支持自定义UICollectionViewCell</li>
+  <li>[x] 支持自定义 UIView 填充BannerView</li>
+  <li>[x] 支持在Storyboard\xib中创建并配置其属性</li>
+  <li>[x] 支持非首尾循环的Footer样式和进入详情回调</li>
+  <li>[x] 不依赖其他三方SDWebImage或者AFNetworking设置图片</li>
+  <li>[x] 支持CocoaPods</li>
+  <li>[x] 支持Carthage</li>
+  <li>[x] ……</li>
+</ul>
+
+<h2 id="安装">安装</h2>
+
+<h3 id="cocoapods"><a href="http://cocoapods.org">CocoaPods</a></h3>
+
+<div class="language-ruby highlighter-rouge"><pre class="highlight"><code>    <span class="n">pod</span> <span class="s1">'YJBannerView'</span>
+</code></pre>
+</div>
+
+<h3 id="carthage"><a href="https://github.com/Carthage/Carthage">Carthage</a></h3>
+<div class="language-ruby highlighter-rouge"><pre class="highlight"><code>    <span class="n">github</span> <span class="s2">"YJManager/YJBannerViewOC"</span>
+</code></pre>
+</div>
+
+<h2 id="使用方法">使用方法</h2>
+
+<h3 id="1创建bannerview">1.创建BannerView</h3>
+<div class="language-objc highlighter-rouge"><pre class="highlight"><code><span class="cp">#pragma mark - 懒加载
+</span><span class="k">-</span> <span class="p">(</span><span class="n">YJBannerView</span> <span class="o">*</span><span class="p">)</span><span class="n">bannerView</span><span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">_bannerView</span><span class="p">)</span> <span class="p">{</span>
+
+        <span class="c1">// 其中 selectorString 是给UIImageView设置图片和和placeholder的方法
+</span>        <span class="n">_bannerView</span> <span class="o">=</span> <span class="p">[</span><span class="n">YJBannerView</span> <span class="nf">bannerViewWithFrame</span><span class="p">:</span><span class="n">CGRectZero</span> <span class="nf">dataSource</span><span class="p">:</span><span class="n">self</span> <span class="n">delegate</span><span class="o">:</span><span class="n">self</span> <span class="n">placeholderImageName</span><span class="o">:</span><span class="s">@"placeholder"</span> <span class="n">selectorString</span><span class="o">:</span><span class="s">@"setImageWithURL:placeholderImage:"</span><span class="p">];</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">_bannerView</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+<h3 id="2实现数据源方法和代理">2.实现数据源方法和代理:</h3>
+<div class="language-objc highlighter-rouge"><pre class="highlight"><code><span class="c1">// 将网络图片或者本地图片 或者混合数组
+</span><span class="k">-</span> <span class="p">(</span><span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nf">bannerViewImages</span><span class="p">:(</span><span class="n">YJBannerView</span> <span class="o">*</span><span class="p">)</span><span class="nv">bannerView</span><span class="p">{</span>
+    <span class="k">return</span> <span class="n">self</span><span class="p">.</span><span class="n">imageDataSources</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// 将标题对应数组传递给bannerView 如果不需要, 可以不实现该方法
+</span><span class="k">-</span> <span class="p">(</span><span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nf">bannerViewTitles</span><span class="p">:(</span><span class="n">YJBannerView</span> <span class="o">*</span><span class="p">)</span><span class="nv">bannerView</span><span class="p">{</span>
+    <span class="k">return</span> <span class="n">self</span><span class="p">.</span><span class="n">titlesDataSources</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">// 代理方法 点击了哪个bannerView 的 第几个元素
+</span><span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">bannerView</span><span class="p">:(</span><span class="n">YJBannerView</span> <span class="o">*</span><span class="p">)</span><span class="nv">bannerView</span> <span class="nf">didSelectItemAtIndex</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">index</span><span class="p">{</span>
+    <span class="n">NSString</span> <span class="o">*</span><span class="n">title</span> <span class="o">=</span> <span class="p">[</span><span class="n">self</span><span class="p">.</span><span class="n">titlesDataSources</span> <span class="nf">objectAtIndex</span><span class="p">:</span><span class="n">index</span><span class="p">];</span>
+    <span class="n">NSLog</span><span class="p">(</span><span class="s">@"当前%@--&gt;%@"</span><span class="p">,</span> <span class="n">bannerView</span><span class="p">,</span> <span class="n">title</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<h3 id="扩展自定义方法">扩展自定义方法</h3>
+<div class="language-objc highlighter-rouge"><pre class="highlight"><code><span class="c1">// 自定义Cell方法
+</span><span class="k">-</span> <span class="p">(</span><span class="n">Class</span><span class="p">)</span><span class="nf">bannerViewCustomCellClass</span><span class="p">:(</span><span class="n">YJBannerView</span> <span class="o">*</span><span class="p">)</span><span class="nv">bannerView</span><span class="p">{</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">HeadLinesCell</span> <span class="nf">class</span><span class="p">];</span>
+<span class="p">}</span>
+
+<span class="c1">// 自定义Cell的数据刷新方法
+</span><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">bannerView</span><span class="p">:(</span><span class="n">YJBannerView</span> <span class="o">*</span><span class="p">)</span><span class="nv">bannerView</span> <span class="nf">customCell</span><span class="p">:(</span><span class="n">UICollectionViewCell</span> <span class="o">*</span><span class="p">)</span><span class="nv">customCell</span> <span class="nf">index</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">index</span><span class="p">{</span>
+
+    <span class="n">HeadLinesCell</span> <span class="o">*</span><span class="n">cell</span> <span class="o">=</span> <span class="p">(</span><span class="n">HeadLinesCell</span> <span class="o">*</span><span class="p">)</span><span class="n">customCell</span><span class="p">;</span>
+    <span class="p">[</span><span class="n">cell</span> <span class="nf">cellWithHeadHotLineCellData</span><span class="p">:</span><span class="s">@"打折活动开始了~~快来抢购啊"</span><span class="p">];</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<p>最后附上<a href="https://github.com/YJManager/YJBannerViewOC">Demo地址</a></p>
+
+  </section>
+</article>
+
+<section class="read-more">
+   
+   
+   
+</section>
+
+<section class="post-comments">
+  
+    <div id="disqus_thread"></div>
+    <script>
+    
+    var disqus_config = function () {
+        this.page.url = "http://localhost:4000/2017/01/BannerView/";
+        this.page.identifier = "/2017/01/BannerView/";
+    };
+
+    var disqus_shortname = 'YJManager';
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>要查看<a href="http://disqus.com/?ref_noscript"> Disqus </a>评论，请启用 JavaScript</noscript>
+    
+  
+  
+  
+  
+</section>
+
+
+            <section class="footer">
+    <footer>
+
+      <span class="footer__copyright">博客Github地址:<a href="https://github.com/YJManager">https://github.com/YJManager</a></span>
+      <span class="footer__copyright">本站由 <a href="https://github.com/YJManager">@YJManager</a> 于 2017-08-03 生成创建 - &copy; 2017</span>
+    	<!-- <span class="footer__copyright">本站点采用<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a></span>
+        <span class="footer__copyright">由 <a href="https://jekyllrb.com">Jekyll</a> 于 2017-08-03 生成，感谢 <a href="https://www.digitalocean.com/?refcode=30ed2d146762">Digital Ocean</a> 为本站提供稳定的 VPS 服务</span>
+        <span class="footer__copyright">本站由 <a href="https://github.com/YJManager">@YJManager</a> 创建，采用 <a href="https://github.com/onevcat/vno-jekyll">Vno - Jekyll</a> 作为主题，您可以在 GitHub 找到<a href="https://github.com/onevcat/OneV-s-Den">本站源码</a> - &copy; 2017</span> -->
+    </footer>
+</section>
+
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+
+    
+  </body>
+
+</html>
